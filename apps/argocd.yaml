@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - values.yaml
   destination:
-    server: https://kubernetes.default.svc
+    server: https://FE1A95D50B6B42DF64E6DD9B5CAE3555.gr7.us-east-1.eks.amazonaws.com
     namespace: python-app
   syncPolicy:
     automated:
