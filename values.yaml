@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: mridhuldoc/python-cal-project
-  tag: latest
+  repository: mridhuldoc/aws-continuous-integration-project
+  tag: build-14
   pullPolicy: IfNotPresent
 
 service:
