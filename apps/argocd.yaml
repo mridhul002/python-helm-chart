@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - values.yaml
   destination:
-    server: https://FE1A95D50B6B42DF64E6DD9B5CAE3555.gr7.us-east-1.eks.amazonaws.com
+    server: https://kubernetes.default.svc
     namespace: python-app
   syncPolicy:
     automated:
@@ -21,4 +21,5 @@ spec:
       selfHeal: true
   syncOptions:
       - CreateNamespace=true    
+
 
